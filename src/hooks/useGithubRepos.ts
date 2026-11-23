@@ -12,7 +12,7 @@ import {
 import type { GithubData, GithubProfile, GithubRepo, GithubStackSummary, GithubStatus } from '../types/github';
 
 const githubHeaders = { Accept: 'application/vnd.github+json' };
-const githubCacheKey = 'uxuchoa-github-data-v2';
+const githubCacheKey = `${githubUser.toLowerCase()}-github-data-v3`;
 
 interface GithubCache {
   profile: GithubProfile;

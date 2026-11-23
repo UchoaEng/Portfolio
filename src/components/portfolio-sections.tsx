@@ -720,7 +720,7 @@ export function PortfolioFooter({ content }: SimpleSectionProps) {
       <div className="mx-auto flex max-w-7xl flex-col gap-4 px-4 text-sm text-zinc-500 dark:text-zinc-400 md:flex-row md:items-center md:justify-between">
         <p>{content.footer}</p>
         <div className="flex items-center gap-3">
-          <a href="https://github.com/UxUchoa" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className={`rounded text-zinc-500 transition-colors hover:text-blue-700 dark:text-zinc-400 dark:hover:text-blue-300 ${focusRing}`}>
+          <a href={`https://github.com/${githubUser}`} target="_blank" rel="noopener noreferrer" aria-label="GitHub" className={`rounded text-zinc-500 transition-colors hover:text-blue-700 dark:text-zinc-400 dark:hover:text-blue-300 ${focusRing}`}>
             <Github size={18} />
           </a>
           <a href="https://www.linkedin.com/in/lucasuchoadg" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className={`rounded text-zinc-500 transition-colors hover:text-blue-700 dark:text-zinc-400 dark:hover:text-blue-300 ${focusRing}`}>

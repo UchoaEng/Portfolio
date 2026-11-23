@@ -11,7 +11,7 @@ import { writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 
-const githubUser = 'UxUchoa';
+const githubUser = 'uchoalucastt-dev';
 const hiddenRepoNames = new Set([githubUser]);
 const maxRepos = 12;
 
