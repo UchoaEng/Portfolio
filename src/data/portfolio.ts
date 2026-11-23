@@ -1,7 +1,7 @@
 import githubSnapshot from './github-snapshot.json';
 import type { GithubProfile, GithubRepo, Locale, ProjectStackProfile, SectionId } from '../types/github';
 
-export const githubUser = 'uchoalucastt-dev';
+export const githubUser = 'UchoaEng';
 export const profilePhoto = '/images/IMG_5704%20(1).jpg';
 export const navItems: SectionId[] = ['home', 'github', 'work', 'experience', 'contact'];
 
