@@ -108,6 +108,28 @@ O projeto de portfólio é construído com as seguintes tecnologias principais:
 
 Além dessas, o projeto utiliza várias outras bibliotecas e ferramentas para desenvolvimento, linting e construção, conforme detalhado no arquivo `package.json`.
 
+## Como rodar localmente
+
+Pré-requisitos: **Node.js 18 ou mais novo** e npm.
+
+```bash
+npm install
+npm run dev          # abre em http://localhost:5173
+```
+
+Outros comandos:
+
+```bash
+npm run build        # gera a pasta dist/ (antes, roda o sync:github)
+npm run preview      # serve a build localmente
+npm run lint         # análise de código
+npm run sync:github  # atualiza src/data/github-snapshot.json com os repositórios públicos
+```
+
+O `sync:github` usa a API pública do GitHub. Definir a variável `GITHUB_TOKEN` (opcional) aumenta o limite de 60 para 5000 requisições por hora. Se a API falhar, a build continua com o snapshot já salvo.
+
+Deploy: o projeto está pronto para a **Vercel** (o `vercel.json` já tem o rewrite de SPA). Basta importar o repositório e usar `npm run build` com saída em `dist`.
+
 ## Estrutura do Projeto
 
 A estrutura de diretórios do projeto é organizada da seguinte forma:
