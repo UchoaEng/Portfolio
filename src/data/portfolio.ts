@@ -27,7 +27,7 @@ export const newProjectWindowMs = 30 * 24 * 60 * 60 * 1000;
 export const maxNewProjectBadges = 2;
 
 export const projectTechnologyStacks: Partial<Record<string, ProjectStackProfile['technologies']>> = {
-  Lili_Voice_Chat: ['React 19', 'TypeScript', 'Vite', 'Electron', 'Supabase', 'LiveKit', 'OpenMLS', 'Zustand', 'TanStack Query', 'Playwright'],
+  Lili_Voice_Chat: ['React', 'TypeScript', 'Vite', 'Electron', 'Supabase', 'LiveKit', 'Zustand', 'TanStack Query', 'Playwright'],
   EasyFit: ['Next.js 16', 'React 19', 'TypeScript', 'Prisma 6', 'PostgreSQL 17', 'Tailwind', 'Zod', 'argon2', 'PWA', 'Playwright'],
   CC_Activity: ['Java', 'Servlet', 'JSP + JSTL', 'JDBC', 'Maven', 'JUnit'],
   'Video-Heatmap-Python': ['Python', 'OpenCV', 'NumPy', 'Matplotlib', 'PyQt5', 'psutil'],
@@ -266,9 +266,9 @@ export const copy = {
       noBio: 'Bio pública indisponível no momento.',
       projectProfiles: {
         Lili_Voice_Chat: {
-          summary: 'Cliente local-first de mensagens cifradas, voz, vídeo e compartilhamento de tela (Supabase + LiveKit + OpenMLS), em web e desktop.',
+          summary: 'Cliente no estilo Discord para mensagens, voz, vídeo e compartilhamento de tela (Supabase + LiveKit), na web e no desktop Windows.',
           technologies: projectTechnologyStacks.Lili_Voice_Chat || [],
-          layers: ['React 19 + TypeScript + Vite, empacotado também em Electron', 'Criptografia ponta a ponta com OpenMLS e anexos cifrados', 'Voz, vídeo e tela em tempo real via LiveKit/TURN', 'Supabase + PostgreSQL para dados, presença e permissões por cargo', 'Estado com Zustand e TanStack Query, testes em Playwright'],
+          layers: ['React + TypeScript + Vite, também empacotado em Electron', 'Supabase Auth + RLS aplicando permissões por canal e cargo no banco', 'Voz, vídeo e tela em tempo real via LiveKit/TURN, com áudio por aplicativo no desktop', 'Supabase Realtime, Storage e Edge Functions para presença, anexos e GIFs', 'Estado com Zustand e TanStack Query, testes em Vitest, pgTAP e Playwright'],
         },
         EasyFit: {
           summary: 'PWA mobile-first de saúde que reúne diário alimentar, metas nutricionais, medidas corporais e planejamento de treino.',
@@ -564,9 +564,9 @@ export const copy = {
       noBio: 'Public bio unavailable right now.',
       projectProfiles: {
         Lili_Voice_Chat: {
-          summary: 'A local-first client for encrypted messaging, voice, video and screen sharing (Supabase + LiveKit + OpenMLS), on web and desktop.',
+          summary: 'A Discord-style client for messaging, voice, video and screen sharing (Supabase + LiveKit), on web and Windows desktop.',
           technologies: projectTechnologyStacks.Lili_Voice_Chat || [],
-          layers: ['React 19 + TypeScript + Vite, also packaged with Electron', 'End-to-end encryption with OpenMLS and encrypted attachments', 'Real-time voice, video and screen sharing via LiveKit/TURN', 'Supabase + PostgreSQL for data, presence and role permissions', 'Zustand and TanStack Query state, Playwright tests'],
+          layers: ['React + TypeScript + Vite, also packaged with Electron', 'Supabase Auth + RLS enforcing channel and role permissions in the database', 'Real-time voice, video and screen sharing via LiveKit/TURN, with per-app audio on desktop', 'Supabase Realtime, Storage and Edge Functions for presence, attachments and GIFs', 'Zustand and TanStack Query state, Vitest, pgTAP and Playwright tests'],
         },
         EasyFit: {
           summary: 'A mobile-first health PWA combining a food diary, nutrition goals, body measurements and workout planning.',
