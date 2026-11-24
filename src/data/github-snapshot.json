@@ -1,15 +1,47 @@
 {
-  "generatedAt": "2026-11-23T19:24:00.853Z",
+  "generatedAt": "2026-11-24T16:33:05.357Z",
   "profile": {
     "login": "UchoaEng",
     "avatar_url": "https://avatars.githubusercontent.com/u/223961994?v=4",
     "html_url": "https://github.com/UchoaEng",
     "bio": "Software Engineer focused on data analysis · Product Designer with a fullstack background · Local-first & AI tinkerer · João Pessoa, Brazil",
     "public_repos": 14,
-    "followers": 0,
-    "following": 0
+    "followers": 3,
+    "following": 3
   },
   "repos": [
+    {
+      "id": 1030005085,
+      "name": "gianichini-website-clone",
+      "description": "Sales-focused website for a public communication consultancy offering courses for city halls, built with Lovable",
+      "html_url": "https://github.com/UchoaEng/gianichini-website-clone",
+      "homepage": null,
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "updated_at": "2026-11-23T19:25:57Z",
+      "pushed_at": "2026-11-23T19:25:55Z",
+      "size": 334,
+      "fork": false,
+      "archived": false,
+      "topics": []
+    },
+    {
+      "id": 1033446275,
+      "name": "connect-skyline",
+      "description": "Executive security dashboard prototype with an integration marketplace, built with Lovable, React and Tailwind",
+      "html_url": "https://github.com/UchoaEng/connect-skyline",
+      "homepage": null,
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "updated_at": "2026-11-23T19:25:56Z",
+      "pushed_at": "2026-11-23T19:25:51Z",
+      "size": 188,
+      "fork": false,
+      "archived": false,
+      "topics": []
+    },
     {
       "id": 1469099972,
       "name": "Lili_Voice_Chat",
@@ -21,7 +53,7 @@
       "forks_count": 0,
       "updated_at": "2026-11-23T19:22:11Z",
       "pushed_at": "2026-11-23T19:22:10Z",
-      "size": 2046,
+      "size": 2053,
       "fork": false,
       "archived": false,
       "topics": []
@@ -37,39 +69,7 @@
       "forks_count": 0,
       "updated_at": "2026-11-23T19:20:37Z",
       "pushed_at": "2026-11-23T19:20:24Z",
-      "size": 267,
-      "fork": false,
-      "archived": false,
-      "topics": []
-    },
-    {
-      "id": 1030005085,
-      "name": "gianichini-website-clone",
-      "description": "Sales-focused website rebuild made with Lovable, React, Vite and Tailwind",
-      "html_url": "https://github.com/UchoaEng/gianichini-website-clone",
-      "homepage": null,
-      "language": "TypeScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "updated_at": "2026-11-23T19:14:41Z",
-      "pushed_at": "2025-08-01T00:02:04Z",
-      "size": 333,
-      "fork": false,
-      "archived": false,
-      "topics": []
-    },
-    {
-      "id": 1033446275,
-      "name": "connect-skyline",
-      "description": "Web app prototype built with Lovable, React, Vite and Tailwind",
-      "html_url": "https://github.com/UchoaEng/connect-skyline",
-      "homepage": null,
-      "language": "TypeScript",
-      "stargazers_count": 0,
-      "forks_count": 0,
-      "updated_at": "2026-11-23T19:14:40Z",
-      "pushed_at": "2025-08-07T12:42:36Z",
-      "size": 186,
+      "size": 270,
       "fork": false,
       "archived": false,
       "topics": []
@@ -84,8 +84,8 @@
       "stargazers_count": 0,
       "forks_count": 0,
       "updated_at": "2026-11-23T19:14:37Z",
-      "pushed_at": "2026-11-23T17:51:52Z",
-      "size": 478554,
+      "pushed_at": "2026-11-23T19:25:05Z",
+      "size": 478556,
       "fork": false,
       "archived": false,
       "topics": []
@@ -101,7 +101,7 @@
       "forks_count": 0,
       "updated_at": "2026-11-23T19:14:36Z",
       "pushed_at": "2026-11-23T19:23:15Z",
-      "size": 292,
+      "size": 299,
       "fork": false,
       "archived": false,
       "topics": []
@@ -117,7 +117,7 @@
       "forks_count": 0,
       "updated_at": "2026-11-23T19:14:35Z",
       "pushed_at": "2026-11-23T19:15:25Z",
-      "size": 24,
+      "size": 27,
       "fork": false,
       "archived": false,
       "topics": []
@@ -133,7 +133,7 @@
       "forks_count": 0,
       "updated_at": "2026-11-23T19:14:34Z",
       "pushed_at": "2026-11-23T19:15:23Z",
-      "size": 123,
+      "size": 127,
       "fork": false,
       "archived": false,
       "topics": []
@@ -149,7 +149,7 @@
       "forks_count": 0,
       "updated_at": "2026-11-23T19:14:33Z",
       "pushed_at": "2026-11-23T19:15:17Z",
-      "size": 405,
+      "size": 412,
       "fork": false,
       "archived": false,
       "topics": []
@@ -165,7 +165,7 @@
       "forks_count": 0,
       "updated_at": "2026-11-23T19:14:32Z",
       "pushed_at": "2026-11-23T19:15:20Z",
-      "size": 14431,
+      "size": 14438,
       "fork": false,
       "archived": false,
       "topics": []
@@ -180,8 +180,8 @@
       "stargazers_count": 0,
       "forks_count": 0,
       "updated_at": "2026-11-23T19:14:31Z",
-      "pushed_at": "2026-11-23T19:14:55Z",
-      "size": 133905,
+      "pushed_at": "2026-11-23T19:24:07Z",
+      "size": 133928,
       "fork": false,
       "archived": false,
       "topics": []
@@ -197,7 +197,7 @@
       "forks_count": 0,
       "updated_at": "2026-11-23T19:14:01Z",
       "pushed_at": "2026-11-23T19:19:42Z",
-      "size": 0,
+      "size": 182,
       "fork": false,
       "archived": false,
       "topics": []
